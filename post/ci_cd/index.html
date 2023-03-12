@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: March 12, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.0f229d4b7ebad1917a9a357cba2effab.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Natalia Sidorova" />
+
+
+
+
+
+  
+
+<meta name="description" content="Welcome 👋 Today we find out what is Continuous Integration and Continuous Deployment, explore its pros and cons." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://example.com/post/ci_cd/" />
+<link rel="canonical" href="https://example.com/post/ci_cd/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://example.com/post/ci_cd/featured.png" />
+<meta property="og:site_name" content="Academic" />
+<meta property="og:url" content="https://example.com/post/ci_cd/" />
+<meta property="og:title" content="Continuous Integration and Continuous Deployment (CI/CD) | Academic" />
+<meta property="og:description" content="Welcome 👋 Today we find out what is Continuous Integration and Continuous Deployment, explore its pros and cons." /><meta property="og:image" content="https://example.com/post/ci_cd/featured.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2020-03-12T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2020-03-12T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.com/post/ci_cd/"
+  },
+  "headline": "Continuous Integration and Continuous Deployment (CI/CD)",
+  
+  "image": [
+    "https://example.com/post/ci_cd/featured.png"
+  ],
+  
+  "datePublished": "2020-03-12T00:00:00Z",
+  "dateModified": "2020-03-12T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Natalia Sidorova"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Academic",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Welcome 👋 Today we find out what is Continuous Integration and Continuous Deployment, explore its pros and cons."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Continuous Integration and Continuous Deployment (CI/CD) | Academic</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="01a4e7821669dc66b1241df632eac307" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Academic</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Academic</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/GeorgeCushen" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Continuous Integration and Continuous Deployment (CI/CD)</h1>
+
+  
+  <p class="page-subtitle">Welcome 👋 Today we find out what is Continuous Integration and Continuous Deployment, explore its pros and cons.</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Natalia Sidorova</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 12, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/ci-and-cd/">CI and CD</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header container featured-image-wrapper mt-4 mb-4" style="max-width: 318px; max-height: 159px;">
+  <div style="position: relative">
+    <img src="/post/ci_cd/featured_hub0d45014f787ced6cc0031a4641f0ea0_8929_1200x2500_fit_q75_h2_lanczos_3.webp" width="318" height="159" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAABU1BMVEX///8eR4taLYOQvz9Aoc8AAAAbRYoAOIQAPIZYKoKOvjoAOoU7n84WQ4kANoOMvTVUIn8sm8wAMIGJuywAM4L09PRVJYBQGn1NE3tRHH2HuibNzc0QQIhIAHj1&#43;e7X3eja2tru8fadxlnJ36erznMALH/j3el2irJiOImWwknC25zy9&#43;rm8NY7oNRnfqqWf67Gzt7Rx9tRbKCrmb6RoMDV5rthr9ba6/W&#43;3O0oT5CxvNKKm72hrsnW3OjIvNRwTZKs0&#43;iPxOCmy2m2wNWdy&#43;Rvb28RERGy0oCKiorWzt&#43;BY5&#43;6rMnv6/N6Wprh2&#43;hfd6a82JHg7cxFRUWfjbRIZJoAAHQAI3yXgK9vSZPh7/ZbrNR2uNpPprpiYmJ&#43;tgBJSUmgoKC8vLwvLy9ZqayLcKYAEXdvsYNjrZqGu1hrsI57t3CCgoIgICBpaWmAuGRZqqrI37LOiRqpAAAgAElEQVR4nO1d&#43;1/iSrJv1BNCIAQI7w0wERUQRAR8RMAHeoaj4KAj1&#43;eeOY919969d3ev//9PtzshSXdIQoDg2c/9TP2ggsD0fK3q&#43;lZ1VTUA3&#43;W7fJfv8l3mkcHWXr9xv3t9&#43;lT0rRSfbq7f7hv9q4H4R69LE1HMXbRbheqwzm5GaVYaVVvN49q/wQK3ThpvpyvJZCIVCsV9isTj8VAqkUyu3DyebP3RCxRr7cJIooNeWhAElvV4PJSHYgWB9nu9nlG13fnDVjbov4UyiRREbcVUfPFQIpm4bnz5oxaYOy5IEYgbS1EeM4Ew&#43;oPRejv38UvbatykEnEL4HCJp5LF3b2PX2CuNQr6BXPcCGHpoFSofeTSthrFTCo&#43;HTpVDUPJxMcimGtKUYGdDp2qhkLQW/0oBPunyZQDtSMllCw2Bh&#43;0wOO6n3agdkYEpebylzZohBIzY6foYCpz/QEqmGv5/eys4CkI&#43;pftigePodkVT5d48nTJAHaGtDCJi0Mz9i7Xfrd2k6EFwBsDeLK8BXbqERNnwdaHzvATWuhDRssBUXxMhKahk0hNBdCXvF4SGcxVvaYweXO5KEJR/iVLj9XTxL6pEfqYaqS&#43;BCbTD02HJnHSn/6ilXjmPub&#43;&#43;kDTO2m2svhrIOihglAHBQ9db7erfvjIIwQnAYyize/Yz0ZbLi9w69SJw0h&#43;2UpOf9XKSsrnugXXJFNnSwkCBW1yJEgovKjTBTDIgSaNHnWgAgpeGldY/wV8EVJV2uOqBTeStizPJ/PnRCqzB&#43;ELJTNToYYW7CqLiVWjJnYL4fG0WhI9BIXIBRjROXGz2X74DzEXaYNqFeQQ2buo09jmV0AfhuyaCg5dc8NQ9WzBSDxdF0MrqT4YDLYSqd0YOLGK43QJwZe7JjWPibulaI9Qh7&#43;MjSTQjoidUeECSP5mpxMTo01Q2Ky2I03QyYGq/l5KQp&#43;mPCF4LtxZ3Iml6vlSSfi7ELLEt8QuuL8ZDJLXoPEG&#43;vZ4Kwq4687yANQtE7sVpFrnYZB7EEDnQcxtiiAm5mpSDbSqYscbbQOxsOkBtf/4a64T1OGjkdNoK/pIRQpuLK6RtFIlX7w/2HpLPoKb5AnInAySyf4guRd7O90TnWyBqaIrLngwoifB89C5GGg&#43;gHa9HQP&#43;mhiEhhvdHHlB7a8QTKrlYaH9Qp4yaOdyOnwe/zH8wI5X/QzJhR3m2nLbS5yAxyuQ2hMz8VNwfTJIJPpi5ktsayAOHHkQX8IFD3JhHtvSbVAIRlDCqiAF20AqgBoy3g6oDUBOArVNaNFtUG/BJ7z6u4Qq/MSYZs2ssLgHObXcxzLgPhkvIs3zFcFuAxQzfZA6GWQyIYfs2pdsLLq6VtQMPPg/lyADCXZA8GHzYjgE1WhBBIOhwDYvCq1jPzJLEUJaeHigJHzD9KDPHGl/ECq6UByMlLdoA18jtZJ6egOPmV3wFBcHVzFQPAVfGuKj03RM8m0x9ApBE&#43;hkieRAVBgCsZ0DI6lWZ4WgEIVqRfsFgaYET3XIsl6oeh1c&#43;SDzQ5tfE9sNggtsgHKWyZoIJ6&#43;gpjXEzAmIgUbCV&#43;z3i48roaf&#43;XsN5MitxswhDHfqt0EMRWFUQ6rXcsSRQfiXNjKmZbPJ0oXYxItwOtHlAmLPHX50bvQxKFGcs/&#43;vxa7DXgBqYvH58SiE/nPKF0LfpwR0modP50TN1GmOB1gthYL1B2jrgpQS/4bcsojqiH4eUrs&#43;3uLdEcmAL30rq&#43;urLI&#43;Qo8VkzCfKJSCiUSqUSiczKnP5NhIEGYrgW2Sn6uGURxdkKMoYRgakwmsdA3hIrGci8BzbwrcSTyVk0Db0hk8kkUytPp9dvj/eNRr9/snc1J3wjSZKgAtHeYEQVIvbwz4NeEPlaA&#43;7CaC70oG8A4IsjDuIUvevBso4HY/BzYzGHqSlLEaKI&#43;dUMW6ows/0&#43;ItSS8Icrd&#43;FzHzdCFoOPjQ7lXJVoTD/QM/qPewSabwX&#43;tOcqfDf6PxEToTwfHh4dnZ1dnv0bwEcF6&#43;qpr2T8nXcm/tKXMfM9wR9PpoevY1FOyH126QIfcrNnr68HLy8va2uB8FgCgfDlbDBVbreh5GV5f9&#43;XJQufr9vAR0Evw1qd&#43;XrYoKSGGDWTTwm2nS/uSnEXsqk5SYD64ih3UDy9ubm&#43;uTktQoeSMvfF8h/kHMIFsUNfdAmfzYJemedI4Xk&#43;XbGBj4UORqAkaQT9jcxmjKGeX1ITLJ26WfLLE3WcgBmMFSiOQoLGFPh8oUQy/tbfGwxU9x4bDK76908Zk4MRGNwBcEngpuF36By9bIlZnRDeAj5W8EbpYbuWg3sFWiLaNGrtghSFjHCsiZRfUJVLtMj4QxfvNIV/Og4aQvfwwaMtM4kni28n5sQjdnX/ZDwQluE7M4UvEH52DN&#43;6CXoKfCPj/10IjgoX5p/cadf9KByhaFaNbMVCxJLtsJKzxd2ru10KBfS71vD5Usk3&#43;4PHL40QkSz0rcC//1nYDD4oTtnpBmeC3ionw0fsbKzX37KtARLb9agfZRNkibUEO6pIO3IfexpPluF7s8yVJp/6Djjc1TXOrH1QU48s4Au8OFkeALe8GXqT8AnBoYN8k9hWwWv7bWJAJBEH25&#43;4otlbAuXTLdJ9Pucn3ltvugaGbOBbC7w6&#43;bh3c/RWuTLAjReCN9N5Y1uyTj&#43;MhWKnq8u1rityNvMpEYpP1qAlnmYpF9i6VjPWqS0b&#43;NbC59M/az9tjp4CnzSGjw1WZwKvxpqcW06IMJz2OScYS05ewSf6jfu3m6cijO8TiXEZZDw&#43;c5rzZEVx4AkI36ElfA7oS4Uzcxs6fDIIFC3NmCaONYNOIuTgFPON4XqWJM4iBltfrlAR7uPb9Tx1AveyAia/2MK3Fj6y/5TyqhV6GHysd44csTi0zLxi5kvZm&#43;8jzvKSrp7FXhVTikI/28AXCNjTP1PKYoCPluYrsmg6sF/B1vtuEdmp&#43;NXA1WKFt&#43;RKEm6Zog18EEC7v2/XlLJg8MHIbP70eo2dHjFH7IiQwc3GfcWn05u33fv&#43;ycnel8V1sZFMQm8Us4fPhr70bNBb5VDMSy10uDOQpm6ArE3ubyK74lPTwtBrJDOZ5EpxsaOxkwziQqZRh47fgdW7t3HKwhihlOETpm3u9hIzPzzBjdrmHziddsSTfFxkcVD2EPxrRvwM2QML&#43;rJPoLee58l9kEHwRRc9mC14J7CDiGL5P8pS/U6mpfaS9wsuThEjfOEjkgqaZ68qBHr8PrgjOYwM3&#43;JtGi0DfiziQBcCq2USLNXP&#43;kDcVfTAC6l6azCifyX1z4S&#43;lHFjZUrZbAVUGMYInwvSIggMqhpqDkFVyo1LXyzVb5ryJRa1XFUOCKjgVnd&#43;JuOnQziZvSJzVPwd4NLboIw/ybi0OlDA9z9vLSb5I02ogQVBe8r0bTf2O19qwYIAXQ50nFCaWTwIhyGXDgReAvrTxhzTOuEp&#43;Eo5vcr3CB7oGnxgiPnfqHi8iUqFarpTZk0PjrbsTiQhiXlybXlYxipwhLLP4VcYCEPC/IKZMEn/iBwVw/F5sJ1mvkGl1KIQhnNtfTFJ5390GwxbqAYOo4Sm3M8msbeCqqFcDEG0nQ5ucmdHh2vQVay9iOAIQ4&#43;kf0SOiuu9r/MVsN&#43;9K3dBT4UPIuqa5Ly6p/VDHlmjI0qdhyJmoYdoXxGadLUaWTPfg/Mwwul57RVpIeFRsOzVO55l4bbhM730HfzaLYENRsXUzfW1sZLJkVh4KOTE3EizXsozGYzZn6iFXCsFlSWmuYkA1LPL1/AZiB2EST6j0z&#43;d8EGsmDTYXs&#43;C7W&#43;ljVKpXBkbNdd1dX2gjlXsCpFj6H1r42yO7DwmuYut4/CFXK7Uf8aYMvzxCBwGXo5I9dOyVzrh49YZplvOfuNWyyDPQ4WrjLc&#43;SGTcXZ/oJYhyq1PYxIqg2Ym8n20pi8umiwTPWqEdED58hhiS&#43;Mn0T89RQbNd56Hm9XiGu4NmWyqpgQdTdnt9bZ29QLA80ILxU7yIMa9he5yLFwe4Jbj7XTuHSIkva&#43;DcgB&#43;ifzq3g4FaaTsNNQ96XQ5PH8iHbC6LbqoeNtZ&#43;qIELrFtOroHGxdZ2k8toCL/E8EPM5QwcGA/hUECi56gYjknnwR3PVdB5B0aYYQDnvtR07yEMQXtUeJCqmvoZqd/AjrXEXSPMhLxi&#43;L0C5D4I4ic/v6MrGbP&#43;zt9CpCo8jDm2cd3bXsrysCNjQZI20akdppCk9do2YiSW1MOHRR/QeA&#43;R&#43;T6Tqeidv&#43;mEj3sH2ewq1L/yanob0z13KYsuuvoJ3lE7BsQLUQ9HDHkDO868JOUDROoF6t5h&#43;CBG2PTazn/iwUZaThLwtyCLR3Dc&#43;rJWp6ofWx2g4g1hsyXqiLaIl9pV18oHbkuRZx0/SF4Q0Xt5xWo4dv5C5KhK5TxCLt3L4pGu25RFlwuv6nlzhebxphBpA61bmCIqNuziXbnKb0lyiLuPIwRn&#43;Fk7Ctn5M5GP4hByMNLId/E8Vdp1yqKLyv3YoLcAhtUaOPZqnekEdbHb&#43;tzs3ZsQLE8aOD&#43;CccehVoAVeMG9K7eBog8eBRcbuNNdAmXRRC9xpmjoOMRWlA5KY5MmslZ2W5&#43;buYJJIehL4EXUuUvgv/Bk3jrY3uC7kDXn8eRLehmURZMO1rFEj0aRh1GzA0TlSQE/kbLJMy&#43;DMuNC0hf94c6/cLfB5cG3bhklrvAM/ZIoiyZY4ooayaNycu1x7IEzv8GKNXxLtV0kOn0JvBxqD3b&#43;RuRHYbxWBpVu&#43;Y7MXC15aQUsbwqN97gqaU02uO&#43;wa6FPLn2KF&#43;Z&#43;taTLzt9xnPhSKf1e6X3jCbrsdpZlUvDIoyA9SCOPVsJG0brvsEtWpZa9RiL7ohE&#43;QsvgDnfHpDf2y2V8O1weZVElFtG1T5mG0NTO4YK677CpX3Y50WcqEzVDO38x7Hu376CS3s/uYxsf49bJmp1g1ZZ0J9YctvTOByxrcG/teB1vfb/9/PXrz7/KacHYP3/856dZVmmo&#43;Nv5M77trfLZ/Ld8ttRleMKgZ6Isf/rxF211P8ryq5MV4t1ZYOQVNmvqcaXSe6mITbrFYbLl0z9&#43;UOQ3tED4/U&#43;z/OfITEtgTc9RcQzH89m7W7DOE3xvNsoS&#43;2W8up/Gq5Pl909T33isZf0oFgwjUUkHFGMu1h3PKylHrE9bkozb7PAR5xyBf&#43;no5Ssbd&#43;gQqPvtFpRw3ZuJsnzVVverca32gs05gMZag6xPq3fBzoustz5f0VGW/ucffvgM1/IJ/pV/nws&#43;rMxg57/1jQ8dC&#43;V57g6UK6TTnYmy/DrG7X/gd1FZXezTb7/Lj&#43;wFa26j6HYu19ZreLGEvU3HsyPS/GlstWPg5oFPS/URhI8pAZQl4PLlSg/b&#43;GakLGOrBeAfCEa0uk/o0ecffvhxyjtFNedMCSxFBzc3RzX1Gb1STTvn8CUSKSQhbS90lqxCf17lp6//GC9wZvhEM8rCrOchUhtpPs3joM6Wo/qTihf4n8&#43;ff9Th01dtLarrpWutIE0XcnoSX&#43;fN6tgQ383JSR9K435Xxc8Zb4FW8RV7OBd8qEzDSFlQnoXrZkE&#43;28UJHzdbluU3uBxsC9Lg&#43;&#43;RgmerxkL8WKzRFUKvqkxVZ9TVq0BF/iw0UT6E18YYcFVX9TJrBfPAh&#43;mLIUSmWWoLhGkFkZsyy/CpvyMTqPqk//DblverhJOU5hn&#43;Bi8JIbxcMqq/RYjZfPNG48hV9&#43;hy5lKNqUnfgg/SFzFGVFALDMOvMIgdDP03axif5h8/T4dOiXsrLjuQJxdpxZUR9DdZvn/zSz4SSj9oUoA&#43;FD7ziOSqZr3CYGo5BvZ31UxfRPjxpwNJRqnBRtYMv0QeNt8eYFgSnHBkv3Pt&#43;MSxwLvjwVB6E6bbHTTQiMKUX552XisC977PZ3ic6WGbBUCsu6JVCWr4ZS7j44qieYE8rF3K29&#43;k&#43;7Odfvv42N3xEHVUahmqQ3VWM8P15x3Hn5Vj&#43;pLmOn75&#43;/Wk2zzu0LrWPqMvQB3bF46FMaCWU0TIwIUcVpZoPW4D3IX6Me1ceOgzwfgu6hP5xf9mxKb23EIU1A5n36fDFHPA&#43;u&#43;Z&#43;zXj1&#43;pabt8f7&#43;0Z/TzNeh4eUvygRJIo6Ps9rvHivH7P&#43;nu5WKt1vXbKPiP/PnTWnnZe6/KRscnLU8YmIOqbq8ci60UiDT406tDEhA424OJwcgtTvh8&#43;fxzmDueCrEDmqfXAHuXI&#43;D/LE03/fkbm1k85LXH7XVvfTbDGvKFnDR2uvGsPnK&#43;5enxZDaNCPuvf5HE6Y&#43;qSuaL6MCwzNcG7CoYRKhVsvZ7eJwsj/3hnHxbMNjgCx380yLr98mvpG0frOACxbr9584EukfE83u42TPTUH4ys6Hfrz6wL5PmPh/C3D8NugvMpzhO79a0fLykzrvDTKb//8&#43;vsvP8mLiv0ki6N8X85iOqCH6M56UpuVG1eytg2&#43;aEdv7nZVWgre68f0tGIMIgb5LzwnOMPgiAWkNtFjpImgDxZS5xXEH/u&#43;3VMftF4tZ5D8kIsi8GI9iFwelEvcarZCtG2UDOVXH3FVTtt6ugFW5aIl6&#43;MpXyZz0zgZaM84CzsWFLzXj1vdWP8GNa&#43;3n00T0cafdwj0nA6OWEiMrBn3HHqyHistDSFtE8G9&#43;syyT8mR4JRFjsnu&#43;A1gaD9FhI&#43;UWenLPGLjeLEqDawRNdRovBUzjwMN0OTS14gffTPrIN/dB&#43;V06ZZofVYI3xg3&#43;WBz9rlXs0vM2nN4gnrL&#43;gA75w2lUonMjX78sZTCXFzKuI1y71kedavdEsUYq9zfdtSBYQi6l5eXg4PX19dluw8bz&#43;Hx6HtvDDsr8qXeGldA1I4ul7354ZSF4bg8gE4jDfbJEg1I&#43;AKXR4eHz8/Povhx16vZTO8k&#43;ir1k0o0ZSq21dfxdEqc5xWi1DHPlyBdSZeg9uHoIcI3y4gwt8Qm4iUas7Bz8tDjTSKz8qRPWl9ukQuRo8rDUA1lWcgIjinJRPkPgK9tPViIxlsT8CEGIXnGzUDTP2cpvzkFz1Exq/w7BK60XzH02cuEL4A2Om3a5Pn568EL2g6XS1&#43;s4QviXZV4T1GqD/aur2MamfHFl7e8PE5Zetw4VOPJjU8hfAi&#43;I23aJBK5MiswY/ZgNmlZ0WYqSLwO8x3xQT8Tz/T13vLE0ir8iBzVBhqwxPcModoq/78KZQnEzKdfLZW&#43;DKzuezN0tWFDDhNbjUzyaaAjujTnUSHzozBUg1&#43;zJHz831XCByyGhy1tU0TmWbXwvTQ5ylTf/HzJoojmQe7pBbtLinvLWI6K6&#43;ZRGUu2mwfEvpf&#43;2xi9AILvTG9jxaKPwHLoXw1lpDoWxNlLznnSmqF9p32I3dVuEbvkxOdeHz4uOOFDVRfy2QZRyrLK59VaZxm&#43;cdF94IAYfyr/yn2pbyKIJFPuMjGIU026hBrg6jFhmNrqfj8q0HNUCMR05W69ArfCUr5H1PDd6qXPyMUqDZfhV8MomKVEv7WgnJI6Ngk8KCHSMrxa8xTF4uQY&#43;mWon5oQYEoMU6pkSxx3B&#43;44Mj8qVwKNIULnQ3IZFsrUP5Otq8twHyPWI6A57hNZA4r2FiZHtGlhr1mtX8L1yE3NUaGGjfR6GVIYJr1PWu64Ekjp3JI1DMEXPgMiSjYTs3RmTT5PlzbUOhpVQBq4C&#43;WVmmZRo/0gDbeTzvp4gtJ&#43;aRu16O7zDH&#43;LMxaGGxcvy6XPMr87kCeXHMrTX17x0Qeuuw9RBk1AP2Hl4R7BKxkbocdiP5ve5bRfRSN8HJNGIwnS8kgq8khXqwRCfCWA7BOGH/K8K7T7iUfkKCxX1zc&#43;HvcirHTuIgSr1jOynuwHkbjJnbH&#43;gne&#43;x92Ccin9DvHD0ZMnjYzlMrwWOAOKwwgoib7XA7Igf&#43;azc1sZDyKRj4PGzR2Uny6oJmhmvVOupnMx76fnqGCokQVdlCZYT2&#43;TdJmYavMakI8mFX2DSKLWyzNy&#43;3PT/XbUElw5skVNgHDLU&#43;c7g1rdbMJizH4CmMMqZyeC5ZF5uUUXtUtuEHSZN9RRHSDnICrwvci73ys2DEZxH65Fv6JG9hTu4mexLe9iFJyYoyGL/XT6he5kIgTLUTFcOY&#43;Q49ezt0R22Vi8HEPDrkSVNStYHYxzz67jh9UFyUhF6uq5htj0eFmL8a9bU27mcGmEGpajQoWPaUhPer1bzoSy4HJ4iLq3NEu9RFOHLp8PD5ZA//ABdDTix6qy5QoCTcFN0GIwrz13gezPjQYt7FCSWc9C0&#43;VLZQDeCfQs&#43;q20MRFwn3tGqQLRSJ/PXFhgEx9/SEnallUbRgXNoM3EfpKQO/jhVWjpu/K2vOnlb8kMn0Xxsu5qA5fK6CH4hRzbebbwAtvk9GvveNM7ltTpm1HLqdBv024NW/RORGIWGpMvyzOVbslSFut&#43;K3zyASR6kABCNTT4j0Xttx0lgzQ5OQC3PO3mO0vlg7vf1It1EotddZUnj3ShF2Gg6ZK6Zz2ID0/3BV5QCAcNOOxs7K5DmZwcHqzlCjTWXGS18yG5n4pf6maB8O0W1z2OX5ctl7krEejZlH7jjiLwfBh4OYQGfP5MKGD4YIGDTLMbQyUvXqVmO3U9Fp8yPBddqDhv8rRMTq/ZvkUNzbc8Ob8aUUDr5eFAvaBN/QxZ6yWZvlqbN/1sflEyKbTtH6c//VY235zzh/FeZqWUJdvlymT56LRuNWLs39r52Su01dhlTI4/sJb&#43;&#43;Qz42PyiZEL8U&#43;4bmzo4HBlwcfa5QlkiqkClLGjwbYmr9IgavmkN9nicq0S/kMEE5F3xHDPgl9kVUKw6uHDCbmK9LFPm544VMDPrBvhuMNEeSDPcOtjniVIWZvoYQ&#43;K0CLJnGMhB93uIhu/iN3CFz2fcAY9Zw7WeQbP7T2zvS5Cl4eRWwBnPLu9K5Lk3w2yAHr&#43;arhCD1KE3cdCtho8IC7xCt4FyLQfh85dzonwSKuYMMXpN8pMe11/odKoTOyFtzNGbiBPzVdJ/Dmcx3HUN4PGrqGujl2YMGx&#43;eo7KWc9J&#43;x&#43;ghBXwhKfSaUw5Yq&#43;N0Bd3CCP1rR5wojnR0U9sgNdX7jkf6rfema0s2v2q82WAVvusWmmkWVMgDcYeTl1&#43;Nx0QIPXHt8JwY/CxXAJ5PT0KLx1IQdxkQPZalYu2/DkGNVElbyqeLA&#43;&#43;rDNjIp/nuu60K7vfIgEJG6Q7c5le5dG/fQJcd9/rhVgrhO5CTVyijRSQQFBN&#43;PbLdBGsF1m/wt&#43;LFaCSBVgG06QLxC6e3fD5O3/7ks7csL5Pf7YoZhNlKvssbFE&#43;WEorSmN5dmjN6E6ciGnQMoveCpocZJ8cqAIYPzkx1MJY7Hnq9E/4BBbntCNSz6sMQ4KeU028ZU&#43;V0&#43;o3ZGWS9cr8ZRJDp9vJ3Gojlyt12b53hza8EY0qotIXLA/K3Mw2BPCSOidYg7wsERPB6fhCeHEgkIxggT&#43;LEzkVrKOlXfGIGynoGQPTDwFYc1olbolnJsSuK2UwmUa0XHV1q52UMuuI1PRae5w2nPkbj3U6n97Ok0y3NgJ6RvhwcoAu2LiF5OSMDEA1gGb2a3&#43;uRPHQ0Gg0G/cIkdMi1SnWhNQQXQS/ysTVMNSlhBq72JTkNP8V67a5eshJmtQwqd2TdvAPCR8ol4WQDgTMlewWQGRvRCx/IxtvyUrKYoKbtbk2omZ7IMaj6o1K1jptuZKZbfKZfqS0fHW1YK5kNfvx2uUzecjr7EEhyQDs6NocRyFE48PxsgG9cgC&#43;O/HbAIev0Q1pXqIJOVBBjhTZ5AfIsl0Mj6U&#43;LPkjrnU04QwXkPEMgSfqyJl6GwXMYYYUYH66Ycvx2YXt1LDLOaF305Dp/LQAw9NcBse1B9BzwZVIaU/TP50Ovmg8&#43;g8w3QpPEDzoT5HjDhxC&#43;I50/h5Xjy0LUVvWgSddzolgvCLXcEIheQaoTAbB3ZvSm4yfPIza/aXg2mXeEpoHlBdD2B6kzmqB9roJ6hl44LRHl99NeGFAIAoTJ/9ABxzRFcEG/dYLZRqbYr9ynf7e4&#43;jmny/b4oczBIXiG32LjE6SwMjXi2PSqdl1YyPQuosegzio369QMJaXeOW9ttA8/5HvGs9Y3ljqURQaQHpD&#43;4/Xw&#43;WwtLEIvIt&#43;7NU77Va1v7qRomkUtBoU2aEugFpR7XVqbJHrz33l5YstfZOu1vTbSie4tNL7VcD8Pqro/kytiNLLXkUwNV84LBKX2RZ32guYD9BXRCzBiWalqeD0VndHn4rKXskm/yPOtFrTexdAz8j/FguWnAsqRR9trpnqCn6UFoVkTxRgYRkBtAI5Hfgl5W8rIphdBD3XH2MRvcrPlIvCh&#43;zcWFGOx/cHzi8Jk0C/Foanh0sMcEFuRJmg/0GLuIQda/odmM3J8PKGo7GI3hkIWf22xAfpCyRRizrfzWy/DOErw2cvhmiFLNS6EQRtfZ9PMcNkR9A45UB2BNu1vglEB1EZN0BKEyfTonBcl49Iw2QAhdsVH5cCjMrf6cevuzL59Nev2UOp1m2YdpdBX0HQQdCJiLgihLCD7jLUmTzqo4FyExShfVlJG7Hy7&#43;mFRaTpQpjI/YTHKWdg0T4A2v7pJsOGvxYKeaE58uADSZgsMBVoaUZMOhp01ULOS2GNG70&#43;NJ&#43;O7&#43;klvOW9zW7it6q26YLiqPB&#43;YKKBcbyqaqB9kdxIbyYmRAhA7oCNQHmqSGFL&#43;0eKGq8peUVHAeCL&#43;dqLlvbLvXc48qTdNGH7D3aHVlyYKKIccF5NGCQ32QqiDCz8Lasct08SVh50nTrOR&#43;2Q8nki&#43;nWip7&#43;z&#43;hkVC9INVT5Fnkx1Q7nYrTJqlX07mUbIBm2cSgqPF70kmZevmRtc7sL/BmCXinYHHLeWeiKO1SQ1Ez5u0VdFSHZ1MIis20T2KFlza9czlrsfNjR3ker1l3Y9zZgRQZi85k0QfxSJM2XpnckIaJQRbS5yWcNdb5Regenx3mdfjXBoAlNlL23IeBjsRk6iO3lgAAAE9SURBVMAouLBE8LLdb/OHGQyX3lgmeEgMGhi2Yi&#43;mQtHeZWoeksrG3N529XaJ11ppcoTfVKuwF8&#43;UPL2qi&#43;btai5LOV9Kz4ogVLzu/gdcsCHL4bnesSCfdNQi07ETIvUF41vnUrktzcBaGI4vbX&#43;E4ulydKAasRV7MRit1HKPJTuRyjbUwakQMhC6dDe/7B3PRMSjV1kHA/KgXfOmcBk6wR8ZNT8WO0XK7xvrHG&#43;JITo7X13vfZjNTsrh&#43;UsgLJ8W5cwyVxQr&#43;L1S9fjjpjpNSPkuf7vOpXmIIseMhZNrDrju7btp9cuHyvPR&#43;Qva/tpRllWOyeF3VhBobzDiGTYv/gi1m5Bs5e59&#43;3Zjo9td725s9Lbf9/944AzSqo8kCaqcJEmj&#43;rDQrrkdlv3/F1H8yPlr3&#43;W7fJfv8v9V/g972WzplIR3ggAAAABJRU5ErkJggg==">CI and CD</a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="overview">Overview</h2>
+<ol>
+<li>
+<p>Continuous integration
+Developers using continuous integration merge their changes with the main branch whenever possible. The changes made by the developer are checked by creating an assembly and running automatic tests on this assembly. With this approach, you avoid integration difficulties when you have to wait for the release day to merge changes in the corresponding branch.
+When using continuous integration, much attention is paid to test automation, as a result of which, when integrating new commits into the main branch, the operation of the application is not disrupted.</p>
+</li>
+<li>
+<p>Continuous delivery
+Continuous delivery is a continuation of continuous integration, since it automatically deploys all code changes in the test and/or production environment after the build stage. Not only the testing process is automated, but also the product release process, so the application can be deployed at any time with a single click.
+Theoretically, with continuous delivery, you can release releases at any frequency relevant to the business. However, if you really want to benefit from continuous delivery, you should deploy to production as early as possible, ensuring that small change packages are released that are easy to find a bug in case of problems.</p>
+</li>
+<li>
+<p>Continuous deployment
+Continuous deployment goes one step further than continuous delivery. With this approach, every change that goes through all the stages of the production pipeline is released to customers. Human intervention is not required, and the deployment of a new change to the production environment can only be prevented by an error during the test.
+Continuous deployment is a great way to speed up the customer feedback cycle and relieve the team of unnecessary stress by canceling the &ldquo;release day&rdquo;. Developers can focus on creating software. They see how their code is put into operation in a matter of minutes, once finished.
+Simply put, continuous integration is part of both continuous delivery and continuous deployment. And continuous deployment is similar to continuous delivery, except that releases are done automatically.</p>
+</li>
+<li>
+<p>Continuous integration
+What will be required of you (expenses)
+• Your team will have to write automated tests for each new feature, improvement, or bug fix.
+• A continuous integration server is needed that can monitor the main repository and automatically run tests for each new commit sent.
+• Developers need to merge their changes as often as possible, at least once a day.
+What you will get
+• Fewer bugs get into the work environment, because due to automatic tests, deterioration is detected at an early stage.
+• When all integration problems are solved at the early stages, the release build is easy.
+• It is necessary to switch to another context less often, since developers receive a warning as soon as they break the build, and can work on a fix before moving on to another task.
+• Radically reduced testing costs: your CI server can run hundreds of tests in a few seconds.
+• The quality control team spends less time on testing and can focus on improving the quality culture.</p>
+</li>
+<li>
+<p>Continuous delivery
+What will be required of you (expenses)
+• Continuous integration requires a solid foundation. Your test suite should cover a sufficient part of the code base.
+• Deployments need to be automated. Although the launch is still done manually, no human intervention should be required after the deployment begins.
+• Most likely, your team will need to master the flags of opportunities so that opportunities that have not been completed do not affect the work of clients.
+What you will get
+• From now on, software deployment is no longer difficult. Your team no longer needs to spend several days preparing for the release.
+• You can release releases more often, speeding up the feedback cycle with your customers.
+• Decisions about small changes are made without unnecessary stress, which helps to speed up iterations.</p>
+</li>
+<li>
+<p>Continuous deployment
+What will be required of you (expenses)
+• Your testing culture should be at the highest level. The quality of your test suite will determine the quality of your releases.
+• The documentation process must keep pace with the pace of deployments.
+• Feature flags become an integral part of the process of releasing major changes. They provide an opportunity to coordinate work with other departments (such as support, marketing, PR, etc.).
+What will you get
+• You will be able to speed up the development process, as you will not need to interrupt it during releases. Deployment pipelines are triggered automatically every time changes are made.
+• The number of risks associated with releases is reduced and it is easier to release fixes in case of problems, since each deployment is carried out after making a relatively small number of changes.
+• Customers see a continuous stream of improvements, while the quality is improved every day, not once a month, quarter or year.</p>
+</li>
+</ol>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/ci/cd/">CI/CD</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Fpost%2Fci_cd%2F&amp;text=Continuous&#43;Integration&#43;and&#43;Continuous&#43;Deployment&#43;%28CI%2FCD%29" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Fpost%2Fci_cd%2F&amp;t=Continuous&#43;Integration&#43;and&#43;Continuous&#43;Deployment&#43;%28CI%2FCD%29" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Continuous%20Integration%20and%20Continuous%20Deployment%20%28CI%2FCD%29&amp;body=https%3A%2F%2Fexample.com%2Fpost%2Fci_cd%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fpost%2Fci_cd%2F&amp;title=Continuous&#43;Integration&#43;and&#43;Continuous&#43;Deployment&#43;%28CI%2FCD%29" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Continuous&#43;Integration&#43;and&#43;Continuous&#43;Deployment&#43;%28CI%2FCD%29%20https%3A%2F%2Fexample.com%2Fpost%2Fci_cd%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fexample.com%2Fpost%2Fci_cd%2F&amp;title=Continuous&#43;Integration&#43;and&#43;Continuous&#43;Deployment&#43;%28CI%2FCD%29" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://example.com/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hud55e041236c1cb1360c812bf9b779fb8_157058_270x270_fill_q75_lanczos_center.jpg" alt="Natalia Sidorova"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://example.com/">Natalia Sidorova</a></h5>
+      <h6 class="card-subtitle">Student IT</h6>
+      <p class="card-text">My research interests include data processing and visualization, Python programming, computer games and reading classical and scientific literature.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/resume.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.e8ee06ba8371980ffde659871dd593b0.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

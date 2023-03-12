@@ -113,6 +113,88 @@
     </item>
     
     <item>
+      <title>Continuous Integration and Continuous Deployment (CI/CD)</title>
+      <link>https://example.com/post/ci_cd/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/ci_cd/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Continuous integration
+Developers using continuous integration merge their changes with the main branch whenever possible. The changes made by the developer are checked by creating an assembly and running automatic tests on this assembly. With this approach, you avoid integration difficulties when you have to wait for the release day to merge changes in the corresponding branch.
+When using continuous integration, much attention is paid to test automation, as a result of which, when integrating new commits into the main branch, the operation of the application is not disrupted.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Continuous delivery
+Continuous delivery is a continuation of continuous integration, since it automatically deploys all code changes in the test and/or production environment after the build stage. Not only the testing process is automated, but also the product release process, so the application can be deployed at any time with a single click.
+Theoretically, with continuous delivery, you can release releases at any frequency relevant to the business. However, if you really want to benefit from continuous delivery, you should deploy to production as early as possible, ensuring that small change packages are released that are easy to find a bug in case of problems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Continuous deployment
+Continuous deployment goes one step further than continuous delivery. With this approach, every change that goes through all the stages of the production pipeline is released to customers. Human intervention is not required, and the deployment of a new change to the production environment can only be prevented by an error during the test.
+Continuous deployment is a great way to speed up the customer feedback cycle and relieve the team of unnecessary stress by canceling the &amp;ldquo;release day&amp;rdquo;. Developers can focus on creating software. They see how their code is put into operation in a matter of minutes, once finished.
+Simply put, continuous integration is part of both continuous delivery and continuous deployment. And continuous deployment is similar to continuous delivery, except that releases are done automatically.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Continuous integration
+What will be required of you (expenses)
+• Your team will have to write automated tests for each new feature, improvement, or bug fix.
+• A continuous integration server is needed that can monitor the main repository and automatically run tests for each new commit sent.
+• Developers need to merge their changes as often as possible, at least once a day.
+What you will get
+• Fewer bugs get into the work environment, because due to automatic tests, deterioration is detected at an early stage.
+• When all integration problems are solved at the early stages, the release build is easy.
+• It is necessary to switch to another context less often, since developers receive a warning as soon as they break the build, and can work on a fix before moving on to another task.
+• Radically reduced testing costs: your CI server can run hundreds of tests in a few seconds.
+• The quality control team spends less time on testing and can focus on improving the quality culture.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Continuous delivery
+What will be required of you (expenses)
+• Continuous integration requires a solid foundation. Your test suite should cover a sufficient part of the code base.
+• Deployments need to be automated. Although the launch is still done manually, no human intervention should be required after the deployment begins.
+• Most likely, your team will need to master the flags of opportunities so that opportunities that have not been completed do not affect the work of clients.
+What you will get
+• From now on, software deployment is no longer difficult. Your team no longer needs to spend several days preparing for the release.
+• You can release releases more often, speeding up the feedback cycle with your customers.
+• Decisions about small changes are made without unnecessary stress, which helps to speed up iterations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Continuous deployment
+What will be required of you (expenses)
+• Your testing culture should be at the highest level. The quality of your test suite will determine the quality of your releases.
+• The documentation process must keep pace with the pace of deployments.
+• Feature flags become an integral part of the process of releasing major changes. They provide an opportunity to coordinate work with other departments (such as support, marketing, PR, etc.).
+What will you get
+• You will be able to speed up the development process, as you will not need to interrupt it during releases. Deployment pipelines are triggered automatically every time changes are made.
+• The number of risks associated with releases is reduced and it is easier to release fixes in case of problems, since each deployment is carried out after making a relatively small number of changes.
+• Customers see a continuous stream of improvements, while the quality is improved every day, not once a month, quarter or year.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How was my first week</title>
+      <link>https://example.com/post/1_week/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/1_week/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Last week I was preparing for a calculus test. It was interesting, but very difficult.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;March 8 was a holiday - International Women&amp;rsquo;s Day. I celebrated it with people dear to me.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Felt bad for several days and did not do laboratory work, I had to shift my work schedule and set aside time to complete these works.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Writing technical content in Markdown</title>
       <link>https://example.com/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
@@ -216,7 +298,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-862591374&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-125978463&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -226,7 +308,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-862591374&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-125978463&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

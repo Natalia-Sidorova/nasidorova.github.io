@@ -46,6 +46,26 @@
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://example.com/category/ci-and-cd/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/post/ci_cd/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/first-week/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/post/1_week/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/category/post-1/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://example.com/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -119,6 +139,9 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/admin/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/ci/cd/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
