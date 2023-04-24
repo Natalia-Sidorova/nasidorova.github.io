@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>post 2 | Academic</title>
+    <link>https://example.com/category/post-2/</link>
+      <atom:link href="https://example.com/category/post-2/index.xml" rel="self" type="application/rss+xml" />
+    <description>post 2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>post 2</title>
+      <link>https://example.com/category/post-2/</link>
+    </image>
+    
+    <item>
+      <title>How was my second week</title>
+      <link>https://example.com/post/2_week/</link>
+      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/2_week/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Last week I was preparing for an analytic geometry test. It was incredibly difficult.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The weather has finally turned into a real spring. It was sunny and warm so I tried to walk in the fresh air as much as possible.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

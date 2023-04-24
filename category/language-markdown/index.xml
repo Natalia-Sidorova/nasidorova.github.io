@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Language Markdown | Academic</title>
+    <link>https://example.com/category/language-markdown/</link>
+      <atom:link href="https://example.com/category/language-markdown/index.xml" rel="self" type="application/rss+xml" />
+    <description>Language Markdown</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Language Markdown</title>
+      <link>https://example.com/category/language-markdown/</link>
+    </image>
+    
+    <item>
+      <title>Markdown language</title>
+      <link>https://example.com/post/markdown/</link>
+      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/markdown/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;What is Markdown
+Markdown is a text markup language. Such texts are easy to write and read. They can be easily converted to HTML. Most programmers prefer Markdown for writing documentation, describing their projects, writing blogs, and so on.&lt;/li&gt;
+&lt;li&gt;Why is this needed?
+To add markup where no real markup is possible. For example, in a simple text file or in the same SMS, where it is impossible to bold, create headings, highlight quotes, etc.
+For more convenient writing of texts for subsequent conversion to HTML or other formats.&lt;/li&gt;
+&lt;li&gt;Dialects and editors
+Very few people use basic Markdown anymore. But it has specifications and dialects that add new features to the language: embedding HTML tags, creating tables and checkboxes, strikethrough text, different line break options.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Different Markdown editors may or may not support some of the new features - keep this in mind when choosing the platform on which you will work.&lt;/p&gt;
+&lt;p&gt;The most common Markdown is the GitHub Flavored Markdown dialect, which is based on the CommonMark specification.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
