@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Report | Academic</title>
+    <link>https://example.com/tag/report/</link>
+      <atom:link href="https://example.com/tag/report/index.xml" rel="self" type="application/rss+xml" />
+    <description>Report</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Report</title>
+      <link>https://example.com/tag/report/</link>
+    </image>
+    
+    <item>
+      <title>Report</title>
+      <link>https://example.com/post/report/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/report/</guid>
+      <description>&lt;h2 id=&#34;what-is-a-report&#34;&gt;What is a report?&lt;/h2&gt;
+&lt;p&gt;A report is a structured report about a conference meeting that you include orally or in writing.&lt;/p&gt;
+&lt;p&gt;Typically, the following elements should appear in the report:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Target&lt;/li&gt;
+&lt;li&gt;Tasks&lt;/li&gt;
+&lt;li&gt;Theoretical Introduction&lt;/li&gt;
+&lt;li&gt;Job Description&lt;/li&gt;
+&lt;li&gt;Results&lt;/li&gt;
+&lt;li&gt;Bibliography&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;how-to-make-a-report&#34;&gt;How to make a report?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;A solid goal has already been set before the work is done, which is why it follows in the report. The main thing is to formulate it correctly, competently and concisely.&lt;/li&gt;
+&lt;li&gt;Based on the goals, you are put forward (or you make up yourself) the tasks that must be completed in order to achieve the desired result. It is better to write tasks in the report under hotel numbers (you can also select sub-items if necessary).&lt;/li&gt;
+&lt;li&gt;In the theoretical introduction, you should write information related to your work. It can be a definition of a definition along with examples, or a description of just some process/action/object.&lt;/li&gt;
+&lt;li&gt;Next, you need to describe all the stages of work (it is impossible to give explanations), it is advisable to reinforce these stages with images (they need to be signed and links to them in the necessary places).&lt;/li&gt;
+&lt;li&gt;The results are formulated in accordance with the objectives. They should also be short enough.&lt;/li&gt;
+&lt;li&gt;The sources from where you took the information for the theoretical introduction must be indicated at the end of your report (they must be drawn up in accordance with GOST).&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

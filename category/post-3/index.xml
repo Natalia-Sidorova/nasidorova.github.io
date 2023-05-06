@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>post 3 | Academic</title>
+    <link>https://example.com/category/post-3/</link>
+      <atom:link href="https://example.com/category/post-3/index.xml" rel="self" type="application/rss+xml" />
+    <description>post 3</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>post 3</title>
+      <link>https://example.com/category/post-3/</link>
+    </image>
+    
+    <item>
+      <title>How was my third week</title>
+      <link>https://example.com/post/3_week/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/3_week/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Last week I successfully coped with the test in mathematical logic. I did several labs on operating systems and algebra at once. All in all, the week was pretty productive.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It&amp;rsquo;s finally warm and sunny outside, so you can put on lighter and brighter looks again. I began to walk more and began to participate in the step challenge&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
