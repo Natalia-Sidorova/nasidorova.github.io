@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming languages | Academic</title>
+    <link>https://example.com/category/programming-languages/</link>
+      <atom:link href="https://example.com/category/programming-languages/index.xml" rel="self" type="application/rss+xml" />
+    <description>Programming languages</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 06 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Programming languages</title>
+      <link>https://example.com/category/programming-languages/</link>
+    </image>
+    
+    <item>
+      <title>Scientific programming languages</title>
+      <link>https://example.com/post/programming_lang/</link>
+      <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/programming_lang/</guid>
+      <description>&lt;h2 id=&#34;scientific-programming-languages&#34;&gt;Scientific programming languages&lt;/h2&gt;
+&lt;p&gt;In computer programming, scientific programming language can refer to two degrees of the same concept.&lt;/p&gt;
+&lt;p&gt;In a broad sense, a scientific programming language is a programming language that is widely used in computational science and computational mathematics. In this sense, C/C++ and Python can be considered as scientific programming languages.&lt;/p&gt;
+&lt;p&gt;More broadly, a scientific programming language is a language that is designed and optimized for the use of mathematical formulas and matrices. Such languages ​​are characterized not only by the presence of libraries that perform mathematical or scientific functions, but also by the syntax of the language itself. For example, neither C++ nor Python have built-in matrix types or functions for matrix arithmetic (addition, multiplication, etc.); instead, this function is available through the standard libraries. Scientific programming languages ​​in a stricter sense include ALGOL, APL, Fortran, J, Julia, Maple, MATLAB, and R.&lt;/p&gt;
+&lt;p&gt;Scientific programming languages ​​should not be confused with scientific language in general, which is loose to the higher standards of precision, correctness, and brevity expected of practitioners of the scientific method.&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Linear algebra
+Scientific programming languages ​​provide facilities for working with linear algebra. Dealing with large vectors and matrices is a key feature of these languages, as linear algebra lays the foundation for mathematical optimization, which in turn enables mainstream applications such as deep learning.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mathematical optimization
+In a scientific programming language, we can calculate the optimum of a function with a syntax close to that of a mathematical language. This example uses Newton&amp;rsquo;s minimization method. Modern scientific programming languages ​​will use automatic differentiation to compute the gradients and hessians of a function given as input; cf. differentiable programming. Here, automatic direct differentiation is chosen for this problem. Old scientific programming languages, such as the venerable Fortran, required the programmer to pass, next to the function to be optimized, a function that calculates the gradient and a function that calculates the Hessian.
+The more knowledge about the function to be minimized, the more efficient algorithms can be used. For example, convex optimization provides faster calculations when the function is convex, quadratic programming provides faster calculations when the function is at most quadratic in its variables, and linear programming when the function is as linear as possible.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
